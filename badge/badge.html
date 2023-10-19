@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap.css" />
+  <title>Document</title>
+</head>
+<body class="">
+<div class="container mt-5">
+  <h3>Badge</h3>
+<!--  with notification numbers-->
+  <hr />
+  <button type="button" class="btn btn-primary position-relative">
+    Inbox
+    <span
+            class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+    >
+          99+
+          <span class="visually-hidden">unread messages</span>
+        </span>
+  </button>
+
+  <hr>
+<!--  notification-->
+  <button type="button" class="btn btn-primary">
+  Notifications <span class="badge text-bg-secondary">2244</span>
+</button>
+
+  <hr>
+<!--  with alerts dot-->
+
+  <button type="button" class="btn btn-primary position-relative ml-3">
+    Profile
+    <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+    <span class="visually-hidden">New alerts</span>
+  </span>
+  </button>
+  <hr>
+<!--  pill badge-->
+  <span class="badge rounded-pill text-bg-primary">Primary</span>
+</div>
+<!-- JS CONNECTION-->
+<script src="../bootstrap/js/bootstrap.js"></script>
+<script src="../bootstrap/js/app.js"></script>
+</body>
+</html>
