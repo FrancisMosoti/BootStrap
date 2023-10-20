@@ -1,39 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.css" />
     <title>Cards</title>
-</head>
-<body>
+  </head>
+  <body>
+    <h1 class="text-center">Cards</h1>
+    <hr />
+    <div class="container d-flex justify-content-around align-items-start">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="../breadcramp/breadcramp.html">Home</a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">Cards</li>
+        </ol>
+      </nav>
+      <div class="card" style="width: 18rem">
+        <img src="../images/me.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">JUNIOR DEVELOPER</h5>
+          <p class="card-text">
+            "There is a big difference between making a simple product & making
+            a product simple. "
+          </p>
+          <a href="#" class="btn btn-primary">See Profile</a>
+        </div>
+      </div>
 
-<h1 class="text-center">Cards</h1>
-<hr>
-<div class="container bg-secondary d-flex justify-content-center">
-    <div class="card" style="width: 18rem;">
-  <img src="../images/me.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">JUNIOR DEVELOPER</h5>
-    <p class="card-text">"There is a big difference between making a simple product & making a product simple. "</p>
-    <a href="#" class="btn btn-primary">See Profile</a>
-  </div>
-</div>
+      <div class="card" style="width: 18rem">
+        <div class="card-body">
+          <h5 class="card-title">Francis Mosoti</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">
+            Junior Developer
+          </h6>
+          <p class="card-text">
+            Experience is the name everyone gives to their mistakes.
+          </p>
+          <a href="#" class="card-link">Portfolio</a>
+          <a href="#" class="card-link">About Me</a>
+        </div>
+      </div>
+    </div>
 
-    <div class="card" style="width: 18rem;">
-  <div class="card-body">
-    <h5 class="card-title">Francis Mosoti</h5>
-    <h6 class="card-subtitle mb-2 text-body-secondary">Junior Developer</h6>
-    <p class="card-text">Experience is the name everyone gives to their mistakes.</p>
-    <a href="#" class="card-link">Portfolio</a>
-    <a href="#" class="card-link">About Me</a>
-  </div>
-</div>
-</div>
-
-
-<!-- JS CONNECTION-->
-<script src="../bootstrap/js/bootstrap.js"></script>
-<script src="../bootstrap/js/app.js"></script>
-</body>
+    <!-- JS CONNECTION-->
+    <script src="../bootstrap/js/bootstrap.js"></script>
+    <script src="../bootstrap/js/app.js"></script>
+  </body>
 </html>
