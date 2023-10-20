@@ -1,0 +1,8 @@
+.new{
+    height: 80vh;
+}
+
+img{
+    height: 80vh;
+    object-fit: cover;
+}
